@@ -32,7 +32,10 @@ public class Expense {
 		this.amount = amount;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "\n" + "Amount: " + amount + "\n" + "Name: " + name + "\n" + "Category: " + category;
+	}
 
 
 }
